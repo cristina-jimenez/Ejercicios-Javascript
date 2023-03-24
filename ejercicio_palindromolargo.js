@@ -35,7 +35,6 @@ function encontrarpalindromolargo(elementos) {
     }
     //control 3
     if (cont === variante.length && elementos[i].length < longitud) {
-      palindromoslargos = [];
       palindromoslargos.push(elementos[i]);
     }
 
@@ -45,7 +44,7 @@ function encontrarpalindromolargo(elementos) {
     console.log("null");
     return null;
   } else if (palindromoslargos.length === 1) {
-    return palindromoslargos;
+    return palindromoslargos[0];
   } else {
     return palindromoslargos[0];
   }

@@ -21,8 +21,7 @@ function myMap(array, func) {
   return rtaDelMap;
 }
 
-
-
+//------ para ejecutarlo -------
 myMap([1, 7, 3, 4], (num) => num * 2);
 myMap(
   [
